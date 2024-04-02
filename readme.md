@@ -90,15 +90,15 @@ OPENAI_API_KEY='<SECRET KEY>'
 ```
 
 
-# Setting Up Project Environment 
+### Setting Up Project Environment 
  Testing has been conducted primarily on Windows environments due to time constraints. If using a different operating system, ensure compatibility and conduct appropriate testing. 
  
 
-## Step 1: Install Conda
+### Step 1: Install Conda
 
 If you haven't already, install Conda by following the instructions on the [official Conda documentation](https://docs.anaconda.com/free/anaconda/install/windows/).
 
-## Step 2: Set the working directory and clone the repository:
+### Step 2: Set the working directory and clone the repository:
 Copy each codes to the terminal
 
 Setup the directory folder
@@ -114,7 +114,7 @@ Set the directory to repository
 cd genai_healthcare
 ```
 
-## Step 3: Set Conda Environment with pip requirements
+### Step 3: Set Conda Environment with pip requirements
 
 Execute the following command to create a new Conda environment based on the `environment.yml` file:
 
@@ -124,7 +124,7 @@ conda env create -f environment.yml
 
 This will set up a new environment named `myenv` (or as specified in the `environment.yml` file) with the required dependencies. You may always change `myenv` to another name by editing the environment.yml.
 
-## Step 4: Activate the New Environment
+### Step 4: Activate the New Environment
 
 Activate the newly created environment by running: 
 
@@ -137,7 +137,7 @@ To deactivate the environment, type the following:
 conda deactivate myenv
 ```
 
-## Step 5: Testing the LLM Backend Engine
+### Step 5: Testing the LLM Backend Engine
 
 To test the LLM backend engine in the following steps:
 
@@ -162,7 +162,7 @@ After the script is run successfully, you'll find two files under the `result` f
 - `sample_output.csv`: This file provides sample outputs for the 80 questions.
 
 
-## Step 6: FastAPI Testing with Postman
+### Step 6: FastAPI Testing with Postman
 
 Follow these steps:
 
