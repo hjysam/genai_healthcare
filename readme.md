@@ -226,7 +226,7 @@ Follow these steps:
 4. **Chat History Utilization:** Tracking chat history allows the LLM to employ reinforcement learning techniques, enabling it to respond in a tone consistent with past interactions. This helps mitigate hallucination by maintaining coherence and relevance in responses. 
 
 
-### (II) Assessing Answer Performance 
+### (III) Assessing Answer Performance 
 
 1. **Types of Evaluators in Langchain:**
    - **Embedding Distance Evaluator:**
